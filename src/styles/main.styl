@@ -1,0 +1,110 @@
+// New to Stylus? Check out http://learnboost.github.io/stylus
+// Use modern CSS thanks to 100%prefixer: https://github.com/ai/100%prefixer
+
+// Import CSS from "node_modules" and "bower_components"
+// thanks to Stylus' "import css" and "paths" options
+
+@import 'prism/themes/prism-okaidia.css'
+// Check out "bower_components/prism/themes/" for available themes
+
+body
+	font-family 'Open Sans', sans-serif
+
+h1
+	padding-top 40px
+	letter-spacing -4px;
+
+a
+	color #1ABC9C
+
+a:hover
+	color #404040
+	
+.immagine
+	background-color transparent
+
+.immagine p 
+	padding 50px 20px 0px
+	text-align left
+	width 100%
+	margin-left 0
+
+.immagine h1, .immagine h2
+	text-shadow 1px 1px rgba(215, 215, 215, 0.8)
+.light, .light h3
+	color #FFF
+
+.light p 
+	background-color: rgba(30, 0, 12, 0.8);
+	
+.dark h1
+	color #000
+	
+.dark p
+	background-color: rgba(215, 215, 215, 0.8);
+
+code[class*="language-"], pre[class*="language-"]
+	line-height 1
+	width 100%
+
+.resize-15, p.resize-15
+	width 15%
+	height 100%
+		
+.resize-25, p.resize-25
+	width 25%
+	height 100%
+
+.resize-35, p.resize-35
+	width 35%
+	height 100%
+	
+.resize-40, p.resize-40
+	width 40%
+	height 100%
+	
+.resize-50, p.resize-50
+	width 50%
+	height 100%
+	
+.resize-60, p.resize-50
+	width 50%
+	height 100%
+	
+.resize-75, p.resize-75
+	width 75%
+	height 100%
+
+.resize-90, p.resize-75
+	width 75%
+	height 100%
+
+.inline-element
+	display inline-block
+	
+.inherit
+	display inherit
+
+.quote
+	font-size 16px
+	font-style italic
+	
+.cta
+	padding 10px 40px
+	color #1ABC9C
+	background-color transparent
+	border 2px solid #1ABC9C
+	border-radius 6px
+	text-transform: uppercase;
+	font-size: 16px;
+
+.cta:hover
+	background-color #1ABC9C
+	color #FFF
+	
+// Immagini delle slide
+
+.backdrop-1 {
+    background transparent url('../images/sfondo.png') no-repeat
+    background-size cover
+}
