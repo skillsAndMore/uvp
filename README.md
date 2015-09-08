@@ -1,15 +1,15 @@
 # skillsAndMore
-> A [Bespoke.js](http://markdalgleish.com/projects/bespoke.js) presentation, built with [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
+> Una presentazione fatta con bespoke.js, jade e stylus
 
-## View slides locally
+## Per editarlo in locale
 
-First, ensure you have the following installed:
+Assicurati di aver installato:
 
 1. [Node.js](http://nodejs.org)
 2. [Bower](http://bower.io): `$ npm install -g bower`
 3. [Gulp](http://gulpjs.com): `$ npm install -g gulp`
 
-Then, install dependencies and run the preview server:
+Poi installa le dipendenze e avvia la presentazione live con:
 
 ```bash
 $ npm install && bower install
