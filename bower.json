@@ -1,7 +1,0 @@
-{
-  "name": "presentation-skillsandmore",
-  "version": "0.1.0",
-  "dependencies": {
-    "prism": "gh-pages"
-  }
-}
