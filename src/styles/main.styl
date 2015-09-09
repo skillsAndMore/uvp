@@ -22,12 +22,17 @@ a:hover
 	
 .immagine
 	background-color transparent
+	display block
 
 .immagine p 
 	padding 50px 20px 0px
 	text-align left
 	width 100%
 	margin-left 0
+
+.immagine p.resize-75, .immagine p.resize-50, .immagine p.resize-90, .immagine p.resize-60, .immagine p.resize-40, .immagine p.resize-35, .immagine p.resize-25, .immagine p.resize-15
+	margin 0px
+	float right
 
 .immagine h1, .immagine h2
 	text-shadow 1px 1px rgba(215, 215, 215, 0.8)
@@ -49,35 +54,27 @@ code[class*="language-"], pre[class*="language-"]
 
 .resize-15, p.resize-15
 	width 15%
-	height 100%
 		
 .resize-25, p.resize-25
 	width 25%
-	height 100%
 
 .resize-35, p.resize-35
 	width 35%
-	height 100%
 	
 .resize-40, p.resize-40
 	width 40%
-	height 100%
 	
 .resize-50, p.resize-50
 	width 50%
-	height 100%
 	
 .resize-60, p.resize-50
 	width 50%
-	height 100%
 	
 .resize-75, p.resize-75
 	width 75%
-	height 100%
 
 .resize-90, p.resize-75
 	width 75%
-	height 100%
 
 .inline-element
 	display inline-block
@@ -101,6 +98,14 @@ code[class*="language-"], pre[class*="language-"]
 .cta:hover
 	background-color #1ABC9C
 	color #FFF
+	
+.img-cta
+	opacity 1
+
+.img-cta:hover
+	opacity .8
+	background radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.2), rgba(255,255,255,0))
+	border-radius 8px
 	
 // Immagini delle slide
 

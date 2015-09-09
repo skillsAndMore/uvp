@@ -1,1 +1,244 @@
-code[class*="language-"],pre[class*="language-"]{color:#f8f8f2;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;-moz-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*="language-"]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*="language-"],pre[class*="language-"]{background:#272822}:not(pre)>code[class*="language-"]{padding:.1em;border-radius:.3em}.token.comment,.token.prolog,.token.doctype,.token.cdata{color:slategray}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.property,.token.tag,.token.constant,.token.symbol,.token.deleted{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.selector,.token.attr-name,.token.string,.token.char,.token.builtin,.token.inserted{color:#a6e22e}.token.operator,.token.entity,.token.url,.language-css .token.string,.style .token.string,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.regex,.token.important{color:#fd971f}.token.important,.token.bold{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}body{font-family:'Open Sans',sans-serif}h1{padding-top:40px;letter-spacing:-4px}a{color:#1abc9c}a:hover{color:#404040}.immagine{background-color:transparent}.immagine p{padding:50px 20px 0;text-align:left;width:100%;margin-left:0}.immagine h1,.immagine h2{text-shadow:1px 1px rgba(215,215,215,.8)}.light,.light h3{color:#fff}.light p{background-color:rgba(30,0,12,.8)}.dark h1{color:#000}.dark p{background-color:rgba(215,215,215,.8)}code[class*="language-"],pre[class*="language-"]{line-height:1;width:100%}.resize-15,p.resize-15{width:15%;height:100%}.resize-25,p.resize-25{width:25%;height:100%}.resize-35,p.resize-35{width:35%;height:100%}.resize-40,p.resize-40{width:40%;height:100%}.resize-50,p.resize-50,.resize-60{width:50%;height:100%}.resize-75,p.resize-75,.resize-90{width:75%;height:100%}.inline-element{display:inline-block}.inherit{display:inherit}.quote{font-size:16px;font-style:italic}.cta{padding:10px 40px;color:#1abc9c;background-color:transparent;border:2px solid #1abc9c;border-radius:6px;text-transform:uppercase;font-size:16px}.cta:hover{background-color:#1abc9c;color:#fff}.backdrop-1{background:url("../images/sfondo.png") no-repeat;background-size:cover}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  padding-top: 40px;
+  letter-spacing: -4px;
+}
+a {
+  color: #1abc9c;
+}
+a:hover {
+  color: #404040;
+}
+.immagine {
+  background-color: transparent;
+  display: block;
+}
+.immagine p {
+  padding: 50px 20px 0px;
+  text-align: left;
+  width: 100%;
+  margin-left: 0;
+}
+.immagine p.resize-75,
+.immagine p.resize-50,
+.immagine p.resize-90,
+.immagine p.resize-60,
+.immagine p.resize-40,
+.immagine p.resize-35,
+.immagine p.resize-25,
+.immagine p.resize-15 {
+  margin: 0px;
+  float: right;
+}
+.immagine h1,
+.immagine h2 {
+  text-shadow: 1px 1px rgba(215,215,215,0.8);
+}
+.light,
+.light h3 {
+  color: #fff;
+}
+.light p {
+  background-color: rgba(30,0,12,0.8);
+}
+.dark h1 {
+  color: #000;
+}
+.dark p {
+  background-color: rgba(215,215,215,0.8);
+}
+code[class*="language-"],
+pre[class*="language-"] {
+  line-height: 1;
+  width: 100%;
+}
+.resize-15,
+p.resize-15 {
+  width: 15%;
+}
+.resize-25,
+p.resize-25 {
+  width: 25%;
+}
+.resize-35,
+p.resize-35 {
+  width: 35%;
+}
+.resize-40,
+p.resize-40 {
+  width: 40%;
+}
+.resize-50,
+p.resize-50 {
+  width: 50%;
+}
+.resize-60,
+p.resize-50 {
+  width: 50%;
+}
+.resize-75,
+p.resize-75 {
+  width: 75%;
+}
+.resize-90,
+p.resize-75 {
+  width: 75%;
+}
+.inline-element {
+  display: inline-block;
+}
+.inherit {
+  display: inherit;
+}
+.quote {
+  font-size: 16px;
+  font-style: italic;
+}
+.cta {
+  padding: 10px 40px;
+  color: #1abc9c;
+  background-color: transparent;
+  border: 2px solid #1abc9c;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.cta:hover {
+  background-color: #1abc9c;
+  color: #fff;
+}
+.img-cta {
+  opacity: 1;
+}
+.img-cta:hover {
+  opacity: 0.8;
+  background: -webkit-radial-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.2), rgba(255,255,255,0));
+  background: radial-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.2), rgba(255,255,255,0));
+  border-radius: 8px;
+}
+.backdrop-1 {
+  background: transparent url("../images/sfondo.png") no-repeat;
+  background-size: cover;
+}
