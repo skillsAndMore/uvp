@@ -123,7 +123,15 @@ body {
 }
 h1 {
   padding-top: 40px;
-  letter-spacing: -4px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bree Serif', serif;
+  font-weight: 400;
 }
 a {
   color: #1abc9c;
